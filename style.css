@@ -11,7 +11,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 95vh;
 
   flex-direction: column;
 }
@@ -49,4 +49,15 @@ button {
   margin-top: 1em;
   height: 20em;
   width: 20em;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer > div {
+  display: flex;
+  margin-right: 1em;
 }
